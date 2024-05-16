@@ -1,0 +1,27 @@
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 4px;
+  font-family: inherit;
+  padding: 10px;
+  font-size: 14px;
+  width: 100%;
+}
+.form-control input :focus {
+  outline: 0;
+  border-color: #777;
+}
